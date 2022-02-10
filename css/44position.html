@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .sub {
+            display: none;
+            position: absolute;
+            top: -5px;
+            left: 118px;
+            background-color: black;
+            color: white;
+        }
+        ul {
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+        }
+        .sub > li {
+            width: 120px;
+            padding: 3px;
+            margin: 0px;
+        }
+        .main > li {
+            width: 120px;
+            position: relative;
+            padding: 3px;
+            margin: 0px;
+            background-color: black;
+            color: white;
+            box-sizing: border-box;
+            border: 5px solid black
+        }
+        .main > li:hover {
+            border-right: 5px solid yellow;
+        }
+        .main > li:hover > .sub {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- ul.main>li*5>lorem1+ul.sub>li*3>lorem1 -->
+    <ul class="main">
+        <li>
+            Lorem.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Minima.</li>
+                <li>Tempore.</li>
+            </ul>
+        </li>
+        <li>
+            Odio.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Maiores.</li>
+                <li>Quibusdam!</li>
+            </ul>
+        </li>
+        <li>
+            Numquam!
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Culpa!</li>
+                <li>Excepturi.</li>
+            </ul>
+        </li>
+        <li>
+            Tempora.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Tenetur.</li>
+                <li>Reiciendis.</li>
+            </ul>
+        </li>
+        <li>
+            Enim.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Similique.</li>
+                <li>Ullam.</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
