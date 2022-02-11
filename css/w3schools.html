@@ -1,77 +1,301 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+     integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        img {
-            width: 50px;
-            height: 50px;
+        .top,
+        .top2 {
+            display: flex;
+            justify-content: space-between;
         }
 
-        .home {
-            width: 30px;
-            height: 30px;
+        .top {
+            height: 6em;
         }
 
-        #ex {
-            display: flex;
-            justify-content: space-around;
+        .left-top-item>.fa-solid {
+            font-size: 2em;
         }
-        #home {
+
+        .left-top,
+        .right-top,
+        .left-top2,
+        .right-top2 {
             display: flex;
-            justify-content: space-evenly;
-            font-size: 15px;
+        }
+
+        .left-top-item,
+        .right-top-item,
+        .left-top2-item,
+        .right-top2-item {
+            padding: 10px 20px;
             font-weight: bold;
-            text-align: center;
+        }
+
+        .top2 {
+            background-color: black;
             color: white;
-            border: 5px solid #222;
-            background-color: #222;
-            box-sizing: border-box;
         }
-        
-        .html {
-            background-color: limegreen;
-            border: 5px solid limegreen;
+
+        .left-top2-item:hover {
+            background-color: gray;
+            margin: 0px;
+            padding: 10px 20px;
         }
+
+        div.left-top2-item.no-hover {
+            background-color: #04aa6d;
+        }
+
     </style>
 </head>
+
 <body>
-    <div id="ex">
-        <div class="ex1">
-            <img src="../html/꽃.jfif">
+    <div class="top">
+        <div class="left-top">
+            <div class="left-top-item"><a href="https://www.w3schools.com" title="home" wight="30px"><i
+                        class="fa-solid fa-w"></i></a></div>
+            <div class="left-top-item">Tutorialsa▼</div>
+            <div class="left-top-item">References▼</div>
+            <div class="left-top-item">Exercises▼</div>
+            <div class="left-top-item">Videoes</div>
         </div>
-        <div class="ex1">Tutorials</div>
-        <div class="ex1">References</div>
-        <div class="ex1">Exercises</div>
-        <div class="ex1">Videoes</div>
-        <div class="big">       </div>
-        <span class="ax1">Website</span>
-        <span class="ax1">Paid Courses</span>
-        <span class="ax1">Log in</span>
+        <div class="right-top">
+            <div class="right-top-item">Website</div>
+            <div class="right-top-item">Paid Courses</div>
+            <div class="right-top-item">Log in</div>
+        </div>
     </div>
 
-    <div id="home">
-        <div class="home"><button>o</button></div>
-        <div class="ex2 html">HTML</div>
-        <div class="ex2">CSS</div>
-        <div class="ex2">JAVASCRIPT</div>
-        <div class="ex2">SQL</div>
-        <div class="ex2">PYTHON</div>
-        <div class="ex2">PHP</div>
-        <div class="ex2">BOOTSTRAP</div>
-        <div class="ex2">HOW TO</div>
-        <div class="ex2">W3.CSS</div>
-        <div class="ex2">JAVA</div>
-        <div class="ex2">JQUERY</div>
-        <div class="ex2">C++</div>
-        <div class="ex2">C#</div>
-        <div class="ex2">R</div>
-        <div class="ex2">React</div>
-        <div class="ex2">Kotlin</div>
-        <div class="big">        </div>
-        <div class="ax2"><button>o</button></div>
-        <div class="ax2"><button>o</button></div>
-        <div class="ax2"><button>o</button></div>
+    <div class="top2">
+        <div class="left-top2">
+            <div class="left-top2-item" title="home"><i class="fa-solid fa-house-chimney"></i></div>
+            <div class="left-top2-item no-hover">HTML</div>
+            <div class="left-top2-item">CSS</div>
+            <div class="left-top2-item">JAVASCRIPT</div>
+            <div class="left-top2-item">SQL</div>
+            <div class="left-top2-item">PYTHON</div>
+            <div class="left-top2-item">PHP</div>
+            <div class="left-top2-item">BOOTSTRAP</div>
+            <div class="left-top2-item">HOWTO</div>
+            <div class="left-top2-item">W3.CSS</div>
+            <div class="left-top2-item">JAVA</div>
+            <div class="left-top2-item">JQUERY</div>
+            <div class="left-top2-item">C++</div>
+            <div class="left-top2-item">C#</div>
+            <div class="left-top2-item">R</div>
+            <div class="left-top2-item">React</div>
+            <div class="left-top2-item">Kotlin</div>
+        </div>
+        <div class="right-top2">
+            <div class="right-top2-item"><i class="fa-solid fa-circle-half-stroke"></i></div>
+            <div class="right-top2-item"><i class="fa-solid fa-earth-americas"></i></div>
+            <div class="right-top2-item"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
     </div>
-    </span>
+
+    <style>
+        .main {
+            display: flex;
+        }
+
+        .center-main {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .left-main {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin-right: -0px;
+            margin-left: -0px;
+            width: 200px;
+            /* height: 795px; */
+            min-height: 100%;
+            overflow-y: auto;
+            background-color: lightgray;
+        }
+
+        .left-main-item:hover {
+            background-color: darkgray;
+        }
+
+        div.left-main-item.no-hoverd {
+            background-color: #04aa6d;
+        }
+
+        .left-main-item {
+            font-family: "Segoe UI",Arial,sans-serif;
+        }
+
+    </style>
+
+    <!-- .main>.left-main>.left-main-item*30>lorem1^^.center-main+.right-main>.right-main-item -->
+    <div class="main">
+        <div class="left-main">
+            <h5 class="ieft-main-item">HTML Tutorial </h5>
+            <div class="left-main-item no-hoverd">Lorem.</div>
+            <div class="left-main-item">Quae!</div>
+            <div class="left-main-item">Harum.</div>
+            <div class="left-main-item">Repellendus.</div>
+            <div class="left-main-item">Labore.</div>
+            <div class="left-main-item">Debitis.</div>
+            <div class="left-main-item">Natus.</div>
+            <div class="left-main-item">Repellat.</div>
+            <div class="left-main-item">A.</div>
+            <div class="left-main-item">Nam!</div>
+            <div class="left-main-item">Quaerat.</div>
+            <div class="left-main-item">Culpa?</div>
+            <div class="left-main-item">Illo.</div>
+            <div class="left-main-item">Obcaecati!</div>
+            <div class="left-main-item">Cum?</div>
+            <div class="left-main-item">Laborum?</div>
+            <div class="left-main-item">Illo!</div>
+            <div class="left-main-item">Illum!</div>
+            <div class="left-main-item">Nostrum.</div>
+            <div class="left-main-item">Officiis?</div>
+            <div class="left-main-item">Ratione.</div>
+            <div class="left-main-item">Ipsa!</div>
+            <div class="left-main-item">Voluptatibus.</div>
+            <div class="left-main-item">Adipisci?</div>
+            <div class="left-main-item">Fugit.</div>
+            <div class="left-main-item">Cumque.</div>
+            <div class="left-main-item">Reiciendis!</div>
+            <div class="left-main-item">Incidunt!</div>
+            <div class="left-main-item">Numquam!</div>
+            <div class="left-main-item">Sint.</div>
+            <div class="left-main-item">
+                Lorem.
+            </div>
+            <div class="left-main-item">
+                A?
+            </div>
+            <div class="left-main-item">
+                Maxime?
+            </div>
+            <div class="left-main-item">
+                Commodi.
+            </div>
+            <div class="left-main-item">
+                Error.
+            </div>
+            <div class="left-main-item">
+                Iste.
+            </div>
+            <div class="left-main-item">
+                Distinctio.
+            </div>
+            <div class="left-main-item">
+                Nam.
+            </div>
+            <div class="left-main-item">
+                Aliquid.
+            </div>
+            <div class="left-main-item">
+                Corporis!
+            </div>
+            <div class="left-main-item">
+                Eos?
+            </div>
+            <div class="left-main-item">
+                Enim.
+            </div>
+            <div class="left-main-item">
+                Sed.
+            </div>
+            <div class="left-main-item">
+                Sunt!
+            </div>
+            <div class="left-main-item">
+                Sit.
+            </div>
+            <div class="left-main-item">
+                Quae?
+            </div>
+            <div class="left-main-item">
+                Vel.
+            </div>
+            <div class="left-main-item">
+                Nam?
+            </div>
+            <div class="left-main-item">
+                Magni.
+            </div>
+            <div class="left-main-item">
+                Officiis!
+            </div>
+        </div>
+
+        <div class="center-main py-3 px-5">
+            <div class="card-main d-flex justify-content-center px-4">
+                <div class="card" style="width: 70rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body d-flex justify-content-between">
+                        <div class="card1">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card2">
+                            <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .btn-success {
+                    font-weight: bold;
+                }
+            </style>
+            <h1>HTML Tutorial</h1>
+            <div class="button-main d-flex justify-content-between">
+                <button class="btn btn-success">&lt;home</button>
+                <button class="btn btn-success">next&gt;</button>
+            </div>
+            <br>
+            <style>
+                .box-main {
+                    background-color: palegreen;
+                    margin: 0px -48px;
+                }
+            </style>
+            <!-- .box-main>.box-main-item>p*3^button*2 -->
+            <div class="box-main px-5 py-5">
+                <div class="box-main-item">
+                    <p>HTML is the standard markup language for Web pages.</p>
+                    <p>With HTML you can create your own Website.</p>
+                    <p>HTML is easy to learn - You will enjoy it!</p>
+                </div>
+                <button class="btn btn-success px-4">Stoudy our free HTML Tutorial</button>
+                <br><br>
+                <button type="button" class="btn btn-dark px-4">Watch our Video Tutorial</button>
+            </div>
+            <div class="yourself pt-5">
+                <h2>Easy Learning with HTML "Try it Yourself"</h2>
+                <br>
+                <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+            </div>
+        </div>
+
+        <style>
+            img {
+                width: 200px;
+                height: 300px;
+            }
+        </style>
+
+        <div class="right-main">
+            <div class="right-main-item"><img src="../html/드루피.jfif" alt=""></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" ></script>
 </body>
+
 </html>
