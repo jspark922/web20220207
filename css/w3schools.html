@@ -114,6 +114,9 @@
 
         body {
             height: 100vh;
+            /* max-height: 100%; */
+            /* position: absolute; */
+
         }
 
         .left-main {
@@ -122,8 +125,10 @@
             margin-right: -0px;
             margin-left: -0px;
             width: 200px;
-            height: calc(100vh - 140px);
-            /* min-height: 100%; */
+            height: calc(100vh - 110px);
+            /* max-height: 100%; */
+            /* position: relative; */
+            /* height: 100%; */
             overflow-y: auto;
             background-color: lightgray;
         }
@@ -260,8 +265,8 @@
             </style>
             <h1>HTML Tutorial</h1>
             <div class="button-main d-flex justify-content-between">
-                <button class="btn btn-success">&lt;home</button>
-                <button class="btn btn-success">next&gt;</button>
+                <button class="btn btn-success">❮ Home</button>
+                <button class="btn btn-success">Next ❯</button>
             </div>
             <br>
             <style>
