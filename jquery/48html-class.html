@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .dark {
+            background-color: black;
+            color: white;
+        }
+        h1, p {
+            margin: 0px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("div, p").toggleClass("dark");
+                // $("h1").toggleClass("dark");
+                // $("p").toggleClass("dark");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- button>i.fa-solid.fa-circle-half-stroke -->
+    <button>
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
+    <!-- (div>h1>lorem1^p.dark>lorem)*5 -->
+    <div>
+        <h1>
+            Lorem.
+        </h1>
+        <p class="dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facilis excepturi rem debitis molestiae modi, nostrum reiciendis dolor odit labore id nemo sint, maiores temporibus deserunt minima. Nulla, nihil repellat!
+        </p>
+    </div>
+    <div>
+        <h1>
+            Fugit.
+        </h1>
+        <p class="dark">
+            Aperiam necessitatibus aut doloribus pariatur eveniet cumque facilis, quod eligendi ipsam porro obcaecati qui incidunt modi quibusdam impedit. Minima ducimus iusto consectetur deleniti quidem animi blanditiis, incidunt rerum mollitia laudantium?
+        </p>
+    </div>
+    <div>
+        <h1>
+            Accusamus?
+        </h1>
+        <p class="dark">
+            Voluptates sint tempora beatae? Quae illo dolorum sunt id praesentium provident vitae consequatur veniam perferendis! Itaque autem sint hic sunt cupiditate. Beatae deserunt minima tempora commodi minus eveniet quam amet!
+        </p>
+    </div>
+    <div>
+        <h1>
+            Aliquam?
+        </h1>
+        <p class="dark">
+            Odit ad, commodi quod sequi modi ipsam illum voluptas veniam quos omnis error voluptatum illo ab incidunt quia repellendus? Labore adipisci quia omnis delectus tenetur? Molestias tempore recusandae aliquam distinctio.
+        </p>
+    </div>
+    <div>
+        <h1>
+            Molestiae!
+        </h1>
+        <p class="dark">
+            Reprehenderit illo soluta quisquam, quam placeat repudiandae laborum consectetur doloribus perspiciatis sequi illum vitae quos corporis ratione aperiam impedit sapiente laudantium aut quibusdam a distinctio maiores optio autem. Maxime, ipsam.
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
